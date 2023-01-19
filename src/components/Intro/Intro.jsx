@@ -28,10 +28,9 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span>Piyush Singhal</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            Frontend Developer with beginner level of experience in web  development, producting the Quality work
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -39,9 +38,12 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a href="https://github.com/1109piyush">
+            <img src={Github} alt="" /> </a>
+          <a href="https://www.linkedin.com/in/piyush-singhal-3ab65b17a/">
+            <img src={LinkedIn} alt="" /></a>
+          <a href="https://www.instagram.com/aashusinghal/">
+            <img src={Instagram} alt="" /></a>
         </div>
       </div>
       {/* right image side */}
